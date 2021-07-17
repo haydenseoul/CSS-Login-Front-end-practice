@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+html, body {
+  width: 100%;
+  height: 100%;
+  background: navy;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loginbox {
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+          box-shadow: 1px 1px 1px 1px black;
+  width: 800px;
+  height: 450px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image {
+  width: 55%;
+  height: 100%;
+  background: royalblue;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.user_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  height: 100%;
+  background: white;
+}
+
+.user_info .header {
+  width: 100%;
+  height: 25%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30px;
+}
+
+.user_info .body {
+  width: 100%;
+  height: 60%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.user_info .body input {
+  width: 60%;
+  height: 25px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.user_info .body span {
+  width: 60%;
+}
+
+.user_info .body .find_pw {
+  text-align: right;
+  font-size: 13px;
+  color: #5043cb;
+  font-weight: normal;
+}
+
+.user_info .body .body_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+  margin-bottom: 20px;
+}
+
+.user_info .body .login_button {
+  background-color: rgba(80, 67, 203, 0.612);
+  color: white;
+  width: 50%;
+  height: 35px;
+  margin-top: 15px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.user_info .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background: white;
+}
+
+.user_info .footer span {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-top: 10px;
+  color: #460080;
+}
+/*# sourceMappingURL=styles.css.map */
